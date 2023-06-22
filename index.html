@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <meta name="author" content="Agustina Mena" />
+    <meta name="desciption" content="Landing page about filter movies" />
+    <meta name="keywords" content="filtermovies, cinema, javascript, css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/logo.png" />
+  </head>
+  <body>
+    <header>
+      <figure><img src="img/logo.png" alt="cinema logo" /></figure>
+      <h1>MOVIES FILM</h1>
+    </header>
+    <main>
+      <section class="tittle">
+        <h2>Listing films</h2>
+      </section>
+      <section class="listingFilms">
+        <figure class="box">
+          <img
+            src="./img/s-l1600.jpg"
+            alt="The God Father"
+            class="photoEffect"
+          />
+        </figure>
+        <figure class="box">
+          <img
+            src="./img/91ei8JE0SDL.jpg"
+            alt="who will survive"
+            class="photoEffect"
+          />
+        </figure>
+        <figure class="box">
+          <img
+            src="./img/theshinning.jpg"
+            alt="the shinning"
+            class="photoEffect"
+          />
+        </figure>
+        <figure class="box">
+          <img src="./img/toystory.jpg" alt="toy story" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img src="./img/halloween.jpg" alt="halloween" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img src="./img/diehard.jpg" alt="diehard" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img
+            src="./img/legends.jpg"
+            alt="The Dark Knight Rises"
+            class="photoEffect"
+          />
+        </figure>
+        <figure class="box">
+          <img src="./img/fightclub.jpg" alt="fightclub" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img src="./img/advengers.jpg" alt="advengers" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img src="./img/hangover.jpg" alt="hangover" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img src="./img/yourname.webp" alt="your name" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img src="./img/dragon.jpg" alt="dragon" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img src="./img/robinhood.jpg" alt="robinhood" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img src="./img/whiplash.jpg" alt="whiplash" class="photoEffect" />
+        </figure>
+        <figure class="box">
+          <img src="./img/winner.jpg" alt="winner" class="photoEffect" />
+        </figure>
+      </section>
+
+      <form id="filterForm">
+        <h2>Filter Movies</h2>
+
+        <div>
+          <label for="fromDate">*From date:</label>
+          <input type="date" id="fromDate" required />
+        </div>
+        <div>
+          <label for="toDate">*To date:</label>
+          <input type="date" id="toDate" required />
+        </div>
+        <div>
+          <label for="rate">*Rate:</label>
+          <input type="text" id="rate" required />
+        </div>
+        <div>
+          <label for="userId">User ID:</label>
+          <input type="number" id="userId" />
+        </div>
+        <button type="submit">SEND</button>
+      </form>
+
+      <div id="result"></div>
+      <script src="/scripts/movies-filter.js"></script>
+    </main>
+  </body>
+</html>

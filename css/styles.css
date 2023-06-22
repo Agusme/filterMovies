@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e66057;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(90deg, #070707 0%, #ff0000 100%);
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > figure {
+  width: 15%;
+}
+
+header > figure img {
+  width: 100%;
+  height: auto;
+}
+
+header > h1 {
+  font-size: 3rem;
+}
+.tittle {
+  text-align: center;
+  margin: 20px 0;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.listingFilms {
+  background-image: linear-gradient(160deg, #f80a0a 0%, #1b1212 100%);
+  border-radius: 1.5%;
+  box-shadow: 5px 5px 18px rgb(7, 6, 6);
+  margin: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 15%;
+  margin: 25px 25px 0 25px;
+}
+
+.box img {
+  width: 100%;
+  height: 95%;
+  border-radius: 5%;
+}
+
+.photoEffect:hover {
+  position: relative;
+  top: 5px;
+  right: 5px;
+  filter: sepia(100%);
+  box-shadow: 5px 5px 18px gray;
+}
+
+form {
+  background-color: #efb810;
+  color: #fff;
+  margin: 3em 30em;
+  padding: 2em;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 18px rgb(7, 6, 6);
+}
+
+form input,
+form label {
+  padding: 0.5em;
+  margin: 0.5em;
+  border: none;
+}
+
+button {
+  background-color: #d32020;
+  border: none;
+  color: #fafafa;
+  padding: 1em;
+  margin-top: 1em;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 5px 5px 18px rgb(7, 6, 6);
+}
+
+button:hover {
+  background-color: #b47009;
+}
+
+.movie {
+  text-align: center;
+  color: #fafafa;
+  background-color: #efb810;
+  margin: 3em 30em;
+  padding: 2em;
+  border-radius: 2%;
+  box-shadow: 5px 5px 18px rgb(7, 6, 6);
+}
+
+.movie img {
+  width: 200px;
+  padding: 0.5em;
+}
+
+.noMovies {
+  background-color: #efb810;
+  text-align: center;
+  color: #fafafa;
+  font-size: 2rem;
+  box-shadow: 5px 5px 18px rgb(7, 6, 6);
+}
